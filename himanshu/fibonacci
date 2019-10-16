@@ -1,7 +1,12 @@
 import java.util.Scanner;
 public class fibonacci {
     public static void main(String[] args) {
-        int n = 10, t1 = 0, t2 = 1;
+        int n; 
+        int t1 = 0;
+        int t2 = 1;
+        Scanner sc=new Scanner(System.in);
+        System.println.in("ENTER THE NUMBER:");
+        n=sc.nextInt();        
         
         for (int i = 1; i <= n; ++i)
         {
